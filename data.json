@@ -30,23 +30,43 @@
   "project": [
     {
       "id": 0,
-      "name": "첫번째 팀 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "name": "마주보다",
+      "description": "마음에 쏙 드는 주문제작 케이크 플랫폼, 마주보다 입니다.",
+      "webUrl": "http://mazuboda.com/",
+      "repoUrl": "https://github.com/mazuboda",
       "isTeam": true,
-      "period": ["2022. 07", "2022. 09"],
-      "stack": ["사용한 기술을 적어주세요", "React.js", "JavaScript", "styled-components", "Recoil"]
+      "period": ["2023. 08", "2023. 12"],
+      "stack": ["Java", "Spring Boot", "MySQL", "AWS", "Docker", "Git", "Notion"]
     },
     {
       "id": 1,
-      "name": "첫번째 개인 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "name": "Venty",
+      "description": "Venty는 팬덤을 위한 콘텐츠 저장공간 부족, '정리의 어려움'을 해소하며\n그룹의 사용성과 유대감을 강화하고, 새로운 팬덤 문화를 만들 수 있는 공간입니다.",
+      "webUrl": "https://blog.naver.com/sw_maestro/223254350402",
+      "repoUrl": "https://github.com/SWmaestro-Venty",
+      "isTeam": true,
+      "period": ["2023. 03", "2023. 12"],
+      "stack": ["Java", "Spring Boot", "MySQL", "Redis", "AWS", "Docker", "Git", "Jira"]
+    },
+    {
+      "id": 2,
+      "name": "AI 영상처리를 활용한 뇌졸중 전조증상 자가진단 서비스",
+      "description": "뇌졸중의 골든타임 내에 치료를 받는 환자는 전체의 30%도 채 되지 않는다고 합니다. 뇌졸중의 대표적 전조증상 3가지(안면마비, 언어 장애 등)를 토대로 쉽고 빠르게\n뇌졸중 자가진단을 돕는 서비스를 개발하였습니다.",
+      "webUrl": "",
+      "repoUrl": "https://github.com/Damnun/brainstroke-symptoms-selfdiagnosis",
       "isTeam": false,
-      "period": ["2022. 10", "2022. 11"],
-      "stack": ["JavaScript", "HTML/CSS"]
+      "period": ["2022. 09", "2022. 12"],
+      "stack": ["Python", "Flask", "OpenCV", "MediaPipe", "Docker", "AWS", "Git", "MySQL"]
+    },
+    {
+      "id": 3,
+      "name": "청각장애인을 위한 실시간 수어통역 비대면 화상 진료 서비스",
+      "description": "장애인은 장애로 인한 차별 없이 다른 사람들과 동등하게 의료 서비스를 이용할 수 있어야 합니다. 하지만 의료기관에 근무하는 여러 종사자들이 장애인을 접하거나 응대해 본 경험이 적을 뿐만 아니라, 장애인 환자를 대하는 방법에 대해 교육을 받을 기회가 없습니다. 이런 문제점을 해결할 수 있는 서비스를 만들고 싶었습니다.",
+      "webUrl": "",
+      "repoUrl": "",
+      "isTeam": false,
+      "period": ["2023. 09", "2023. 12"],
+      "stack": ["Python", "Flask", "OpenCV", "MediaPipe", "STT/TTS", "SocketIO", "WebRTC", "AWS", "DB", "Git"]
     }
   ],
 
@@ -61,13 +81,19 @@
       "id": 1,
       "name": "멋쟁이사자처럼 11기 백엔드 교육 운영진",
       "period": ["2023. 01", "2023. 12"],
-      "description": "Java, Spring, DB, Server 강의 활동 / 마주보다 팀 리드 및 백엔드 개발"
+      "description": "Java, Spring, DB, Server 강의 활동\n레터링 케이크 주문제작 플랫폼, '마주보다' 팀 리드 및 백엔드 개발"
     },
     {
       "id": 2,
       "name": "과학기술정보통신부 소프트웨어 마에스트로 11기",
       "period": ["2023. 03", "2023. 12"],
       "description": "팬덤을 위한 성장형 클라우드 플랫폼 'Venty' 팀 리드 및 백엔드 개발"
+    },
+    {
+      "id": 3,
+      "name": "엘리스 코더랜드 코딩교육 튜터",
+      "period": ["2023. 05", "2023. 12"],
+      "description": "파이썬 및 알고리즘 강의"
     }
   ],
 
@@ -76,7 +102,7 @@
       "id": 0,
       "name": "LG Aimers 3기",
       "period": ["2023. 07", "2023. 08"],
-      "description": "AI 교육 이수 / 온라인 채널 제품 판매량 예측 AI 해커톤 수료"
+      "description": "AI 교육 이수\n온라인 채널 제품 판매량 예측 AI 해커톤 수료"
     },
     {
       "id": 1,
@@ -95,9 +121,9 @@
     },
     {
       "id": 1,
-      "name": "TOPCIT 650점 / 수준 4",
+      "name": "TOPCIT",
       "date": "2023. 10. 28",
-      "organizer": "과학기술정보통신부"
+      "organizer": "650점 / 수준 4 / 과학기술정보통신부"
     }
   ],
 
@@ -107,14 +133,14 @@
       "name": "캡스톤 디자인 및 AI 해커톤 최우수상",
       "date": "2022. 10",
       "organizer": "한국컴퓨터교육학회",
-      "description": "맞춤형 AI 취업 컨설턴트 'Ainterview' 출품 / 기사 : http://www.asannews.co.kr/54314"
+      "description": "맞춤형 AI 취업 컨설턴트 'Ainterview' 출품\n기사 : http://www.asannews.co.kr/54314"
     },
     {
       "id": 1,
       "name": "SCH AI/SW Festival 대상",
       "date": "2022. 11",
       "organizer": "순천향대학교 SW중심대학사업단",
-      "description": "SW 학과 연합 학술제 / AI 영상처리를 활용한 뇌졸중 전조증상 자가진단 서비스 출품"
+      "description": "SW 학과 연합 학술제\nAI 영상처리를 활용한 뇌졸중 전조증상 자가진단 서비스 출품"
     },
     {
       "id": 2,
@@ -142,7 +168,7 @@
       "name": "SCH AI/SW Fesitval 장려상",
       "date": "2023. 11",
       "organizer": "순천향대학교 SW중심대학사업단",
-      "description": "SW 학과 연합 학술제 / 청각장애인을 위한 실시간 AI 수어통역 비대면 화상 진료 서비스 출품"
+      "description": "SW 학과 연합 학술제\n청각장애인을 위한 실시간 AI 수어통역 비대면 화상 진료 서비스 출품"
     },
     {
       "id": 6,

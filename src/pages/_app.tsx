@@ -5,6 +5,7 @@ import type { AppProps } from "next/app";
 import * as gtag from "../lib/gtag";
 import {useRouter} from "next/router";
 import {useEffect} from "react";
+import Script from "next/script";
 
 /**
  * @description SEO를 위해 본인의 정보로 수정해주세요.
@@ -69,6 +70,24 @@ const App = ({ Component, pageProps }: AppProps) => {
 
   return (
     <>
+      <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+      />
+      <Script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${GA_TRACKING_ID}', {
+          page_path: window.location.pathname,
+        });
+      `,
+          }}
+      />
       <DefaultSeo {...DEFAULT_SEO} />
       <ThemeProvider attribute="class">
         <Component {...pageProps} />
