@@ -24,7 +24,14 @@
       "name": "(주)딥아이",
       "position": "Back-end Engineer",
       "period": ["2023. 01", "2023. 06"]
+    },
+    {
+      "id": 2,
+      "name": "(주)리오",
+      "position": "Back-end Engineer / Freelancer",
+      "period": ["2023. 09", "Now"]
     }
+
   ],
 
   "project": [
